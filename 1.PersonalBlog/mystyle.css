@@ -1,0 +1,101 @@
+div#all {
+    background-color:rgba(66, 66, 66, 0.7);
+    background-size: cover;
+	display: block;
+}
+header#s1 {
+    font-family: "Liberation Sans", sans-serif;
+    font-size: 30px;
+    color:rgb(53, 163, 236);
+    border: 2px solid rgb(53, 163, 236);
+    border-radius: 50px;
+    max-width: 500px;
+    margin: 2em auto;
+    padding: 20px 1em;
+    box-shadow: 20px 20px 12px rgba(53, 163, 236, 0.8);
+}
+
+ul#s3 {
+    list-style-type: none;
+    position: center;
+}
+
+
+header#top2 {
+    border: 3px solid aqua;
+    width: 350px;
+    background-color: rgba(66, 66, 66, 0.7) ;
+    margin: 2em auto;
+    padding:10px 1em; 
+}
+
+main#s4,footer{
+    background-color: rgba(66, 66, 66, 0.7) ;
+    padding: 4px;
+}
+
+h1#s5 {
+    font-variant: small-caps;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    text-align: justify;
+}
+
+h1#s5:hover{
+    transform: skew(15deg) ;
+    color: white;
+    background-color: rgb(14, 52, 77);
+    transition-property: transform, color, background-color;
+    transition-duration: 3s, 2s, 4s;
+}
+
+div#s6{
+    float: right;
+    background-color: rgba(66, 66, 66, 0.7);
+    background-size: repeat;
+}
+
+#b2,#b1 {
+    font-family: "Liberation Sans", sans-serif;
+    color: rgb(252,255,102);
+    background-image: url('Images/backgroundlight.jpg');
+    background-size:repeat;   
+}
+
+a:link{
+    color:rgb(82, 236, 44);
+    text-decoration: none;
+}
+
+a:visited {
+    color:rgb(82, 236, 44);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+#s10 {
+    border-radius: 50%;
+}
+li{
+    list-style: none;
+}
+/*classes*/
+.s2 {
+    background-color: black;
+    margin: auto;
+    display: inline;
+}
+
+.center{
+    text-align: center;
+}
+
+.aqua{
+    color:aqua;
+}
+
+.italic{
+    font-style: italic;
+}
+
