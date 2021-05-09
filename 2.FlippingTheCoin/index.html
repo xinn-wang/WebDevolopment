@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Toss the Coin</title>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script defer src="script.js"></script>
+	</head>
+	<body>
+		<div id="user">
+			<h3>User Choice</h3>
+			<input type="radio" name="user-choice" value="head">Head</input><br />
+			<input type="radio" name="user-choice" value="reverse" checked>Reverse</input>
+			<h4>Result</h4>
+			<p id="result">Guess and throw!</p>
+		</div>
+		<div id="throw">
+			<p>
+				<img id="coin-image" src="reverse.png" alt="Coin flip result" />
+			</p>
+			<button id="throw-button">Throw</button>
+		</div>
+		<div id="stats">
+			<h3>Statistics</h3>
+			<h4>Amount of wins</h4>
+			<p id="win-count"></p>
+			<h4>Result history</h4>
+			<p id="result-history"></p>
+			<h4>Amount of head</h4>
+			<p id="head-count"></p>
+			<h4>Amount of reverse</h4>
+			<p id="reverse-count"></p>
+		</div>
+	</body>
+</html>
